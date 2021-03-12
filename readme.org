@@ -8,3 +8,6 @@ go run main.go
 curl -X POST -k http://localhost:8999/v1/example/echo -d '{"name": " hello"}'
 #+end_src
 
+reference
+
+[[https://grpc-ecosystem.github.io/grpc-gateway/docs/tutorials/adding_annotations/][Adding gRPC-Gateway annotations to an existing proto file | gRPC-Gateway]]
