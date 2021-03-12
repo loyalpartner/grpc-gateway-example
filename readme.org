@@ -1,0 +1,10 @@
+#+TITLE: Readme
+
+
+* usage
+
+#+begin_src bash
+go run main.go
+curl -X POST -k http://localhost:8999/v1/example/echo -d '{"name": " hello"}'
+#+end_src
+
