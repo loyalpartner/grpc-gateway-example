@@ -26,6 +26,8 @@ func (s *server) SayHello(cxt context.Context, in *helloworldpb.HelloRequest) (*
 }
 
 func main() {
+	enum := helloworldpb.SearchRequest_PRODUCTS
+	log.Println(enum.Number())
 	lis, err := net.Listen("tcp", ":9999")
 	if err != nil {
 		log.Fatalln("Failed to listen", err)
